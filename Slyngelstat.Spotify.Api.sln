@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{0CF89E3D-1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slyngelstat.Spotity.WebApi.Test", "Test\Slyngelstat.Spotity.WebApi.Test\Slyngelstat.Spotity.WebApi.Test.csproj", "{896408B4-ACBF-49CB-A6EA-CC592C2BE01F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slyngelstat.Spotify.LocalApi", "Slyngelstat.Spotify.LocalApi\Slyngelstat.Spotify.LocalApi.csproj", "{4448B7A3-67E9-4C0C-99FD-18DE3114B81B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{896408B4-ACBF-49CB-A6EA-CC592C2BE01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{896408B4-ACBF-49CB-A6EA-CC592C2BE01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{896408B4-ACBF-49CB-A6EA-CC592C2BE01F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4448B7A3-67E9-4C0C-99FD-18DE3114B81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4448B7A3-67E9-4C0C-99FD-18DE3114B81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4448B7A3-67E9-4C0C-99FD-18DE3114B81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4448B7A3-67E9-4C0C-99FD-18DE3114B81B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
