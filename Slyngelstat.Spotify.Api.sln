@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slyngelstat.Spotify.WebApi", "Slyngelstat.Spotify.WebApi\Slyngelstat.Spotify.WebApi.csproj", "{69297995-F1F4-4A68-BF1C-2087A25F6283}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{0CF89E3D-1745-4CE7-BDAF-FFB5FD8007DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slyngelstat.Spotity.WebApi.Test", "Test\Slyngelstat.Spotity.WebApi.Test\Slyngelstat.Spotity.WebApi.Test.csproj", "{896408B4-ACBF-49CB-A6EA-CC592C2BE01F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69297995-F1F4-4A68-BF1C-2087A25F6283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69297995-F1F4-4A68-BF1C-2087A25F6283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69297995-F1F4-4A68-BF1C-2087A25F6283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69297995-F1F4-4A68-BF1C-2087A25F6283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{896408B4-ACBF-49CB-A6EA-CC592C2BE01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896408B4-ACBF-49CB-A6EA-CC592C2BE01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896408B4-ACBF-49CB-A6EA-CC592C2BE01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896408B4-ACBF-49CB-A6EA-CC592C2BE01F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{896408B4-ACBF-49CB-A6EA-CC592C2BE01F} = {0CF89E3D-1745-4CE7-BDAF-FFB5FD8007DA}
+	EndGlobalSection
+EndGlobal
