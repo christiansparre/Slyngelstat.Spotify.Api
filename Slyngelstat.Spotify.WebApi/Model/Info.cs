@@ -23,6 +23,5 @@ namespace Slyngelstat.Spotify.WebApi
         public int Page { get; set; }
 
         public bool HasMoreResults { get { return NumberOfResults > Limit; } }
-
     }
 }

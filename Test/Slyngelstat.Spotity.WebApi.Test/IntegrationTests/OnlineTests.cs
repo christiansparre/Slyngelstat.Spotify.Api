@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Slyngelstat.Spotify.WebApi;
@@ -52,11 +53,14 @@ namespace Slyngelstat.Spotity.WebApi.Test
         [TestMethod]
         public void TestSearchTrack()
         {
-            // Arrange
             string searchTerm = "Pinball Wizard";
-
-            // Act
             var searchResult = webApiClient.SearchTracks(searchTerm);
+            var timer = Stopwatch.StartNew();
+            // Arrange
+
+            var res2= webApiClient.SearchTracks("Diamonds");
+            // Act
+            timer.Stop();
 
             // Assert
             Assert.IsTrue(searchResult.Tracks.Any());

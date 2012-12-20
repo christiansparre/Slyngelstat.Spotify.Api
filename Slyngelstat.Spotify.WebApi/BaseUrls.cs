@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Slyngelstat.Spotify.WebApi
 {
-    internal class BaseUrls
+    public class BaseUrls
     {
         public static readonly string SearchAlbum = "http://ws.spotify.com/search/1/album.json";
         public static readonly string SearchArtist = "http://ws.spotify.com/search/1/artist.json";
