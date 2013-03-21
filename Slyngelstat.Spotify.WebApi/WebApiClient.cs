@@ -128,6 +128,9 @@ namespace Slyngelstat.Spotify.WebApi
             return new Uri(url);
         }
 
+        /// <summary>
+        /// Builds a search uri
+        /// </summary>
         public Uri BuildSearchUri(string baseUrl, string term, int page)
         {
             string url = string.Format("{0}?q={1}", baseUrl, HttpUtility.UrlEncode(term));
