@@ -53,14 +53,12 @@ namespace Slyngelstat.Spotity.WebApi.Test
         [TestMethod]
         public void TestSearchTrack()
         {
-            string searchTerm = "Pinball Wizard";
-            var searchResult = webApiClient.SearchTracks(searchTerm);
-            var timer = Stopwatch.StartNew();
-            // Arrange
 
-            var res2= webApiClient.SearchTracks("Diamonds");
+            // Arrange
+            string searchTerm = "Pinball Wizard";
+
             // Act
-            timer.Stop();
+            var searchResult = webApiClient.SearchTracks(searchTerm);
 
             // Assert
             Assert.IsTrue(searchResult.Tracks.Any());
@@ -95,7 +93,7 @@ namespace Slyngelstat.Spotity.WebApi.Test
         public void TestLookupTrack()
         {
             // Arrange
-           
+
             // Act
             var track = webApiClient.LookupTrack(SpotifyUris.MumfordAndSons_IWillWait);
 
@@ -110,7 +108,7 @@ namespace Slyngelstat.Spotity.WebApi.Test
 
             public static readonly string BrunoMars = "spotify:artist:0du5cEVh5yTK9QJze8zA0C";
 
-            public static readonly string TheWho_PinballWizard = "spotify:track:5jaBGevFXiV9s1kAYyf8JR";
+            public static readonly string TheWho_PinballWizard = "spotify:track:4ApwwQKTdNQDtYvF20Mo0I";
 
             public static readonly string CreedenceClearwaterRevival = "spotify:artist:3IYUhFvPQItj6xySrBmZkd";
 
