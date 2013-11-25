@@ -58,5 +58,21 @@ namespace Slyngelstat.Spotify.WebApi
         {
             return uri;
         }
+
+        public static SpotifyUri Artist(string id)
+        {
+            return string.Format("spotify:artist:{0}", id);
+        }
+
+        public static SpotifyUri Album(string id)
+        {
+            return string.Format("spotify:album:{0}", id);
+        }
+
+
+        public static SpotifyUri Track(string id)
+        {
+            return string.Format("spotify:track:{0}", id);
+        }
     }
 }

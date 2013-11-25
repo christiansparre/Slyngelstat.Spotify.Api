@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseUrls.cs" />
+    <Compile Include="IWebApiClient.cs" />
     <Compile Include="Model\Album.cs" />
     <Compile Include="Model\AlbumArtistResult.cs" />
     <Compile Include="Model\AlbumResult.cs" />
