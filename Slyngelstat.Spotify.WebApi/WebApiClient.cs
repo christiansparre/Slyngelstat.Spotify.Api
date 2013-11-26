@@ -31,7 +31,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Slyngelstat.Spotify.WebApi
 {
-    public class WebApiClient
+    public class WebApiClient : IWebApiClient
     {
         private readonly HttpClient httpClient;
 
