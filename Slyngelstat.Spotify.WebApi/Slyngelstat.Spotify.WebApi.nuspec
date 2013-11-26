@@ -7,6 +7,7 @@
     <authors>Christian Sparre</authors>
     <owners>Christian Sparre</owners>
     <projectUrl>https://github.com/slyngelstat/Slyngelstat.Spotify.Api</projectUrl>
+    <licenseUrl>https://raw.github.com/slyngelstat/Slyngelstat.Spotify.Api/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A simple .NET wrapper library for the Spotify Web API</description>
     <summary></summary>

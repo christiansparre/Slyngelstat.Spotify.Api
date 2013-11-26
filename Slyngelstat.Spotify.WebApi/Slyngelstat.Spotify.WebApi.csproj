@@ -73,7 +73,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Slyngelstat.Spotify.WebApi.nuspec" />
+    <None Include="Slyngelstat.Spotify.WebApi.licenseheader" />
+    <None Include="Slyngelstat.Spotify.WebApi.nuspec">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
