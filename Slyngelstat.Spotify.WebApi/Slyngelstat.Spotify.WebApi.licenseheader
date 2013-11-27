@@ -1,6 +1,8 @@
 extensions: designer.cs generated.cs
 extensions: .cs
 #region license
+// The MIT License (MIT)
+//
 // Copyright (c) 2013 Christian Sparre
 //
 // Permission is hereby granted, free of charge, to any person

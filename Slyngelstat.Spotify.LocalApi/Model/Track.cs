@@ -1,4 +1,6 @@
 #region license
+// The MIT License (MIT)
+//
 // Copyright (c) 2013 Christian Sparre
 //
 // Permission is hereby granted, free of charge, to any person
@@ -22,6 +24,7 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
+
 using Newtonsoft.Json;
 
 namespace Slyngelstat.Spotify.LocalApi
